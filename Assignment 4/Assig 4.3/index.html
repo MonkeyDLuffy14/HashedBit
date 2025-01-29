@@ -1,24 +1,18 @@
-<!-- Task Statement - 
+<!-- Task Statement
 
-Have you seen the different themes of the editors? There's a light theme, and there's a dark theme. We will be building today a toggle theme functionality where we will click a button to change the theme from dark to light.
-The HTML and CSS are already provided to you.
+You have a document and that has one paragraph that is important for some of your audience but useless for the rest. You want to ensure that your users get to choose if they want to hide or see the paragraph.
 
-The p element should have the text I am a HashedBit student, ready to become an awesome full stack developer
+There is a button that, on click, toggles the visibility of the paragraph <p> with id as useless-paragraph.
 
-The main div should have id="app" and class="day"
+That means, if the paragraph is visible, button click should hide it and if it is not visible, the button click should show it.
 
-The buttonshould have id="swap" and class="button_day"
-
-Write the swapTheme function to change the class of the div to night and the class of the button to button_night. Calling the swapTheme function again should change the class of the div back to day and the class of the button back to button_day
-
-Cliking the button should call the swapTheme function.
+The HTML is already provided to you. You only need to write the JS code.
+ -->
 
 
 
-Note: Do not change the CSS code -->
-
-
-<div id="app" class="day">
-    <p>I am a HashedBit student, ready to become an awesome full stack developer</p>
-    <button onclick="swapTheme()" id="swap" class="button_day">Toggle theme</button>
-</div>
+<h1>I am a headline made with HTML</h1>
+<br />
+<p id="useless-paragraph">Useless paragraph.</p>
+<br />
+<button onclick="toggleVisibility()">Toggle Button</button>
